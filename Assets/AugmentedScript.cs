@@ -77,7 +77,7 @@ public class AugmentedScript : MonoBehaviour
 	{
 
 		var R = 6378.137; // Radius of earth in KM
-		var dLat = lat2 * Mathf.PI / 180 - lat1 * Mathf.PI / 180;
+		var dLat = lat2 * Mathf.PI / 180 - lat1 * Mathf.PI / 180; 
 		var dLon = lon2 * Mathf.PI / 180 - lon1 * Mathf.PI / 180;
 		float a = Mathf.Sin(dLat / 2) * Mathf.Sin(dLat / 2) +
 			Mathf.Cos(lat1 * Mathf.PI / 180) * Mathf.Cos(lat2 * Mathf.PI / 180) *
